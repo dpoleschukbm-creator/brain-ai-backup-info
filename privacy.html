@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Privacy policy — BRAIN AI Backup</title>
+<link rel="stylesheet" href="style.css">
+<main>
+<p class="eyebrow"><a href="index.html">BRAIN AI Backup</a></p>
+<h1>Privacy policy</h1>
+<p>Last updated: 23 November 2026.</p>
+<p>BRAIN AI Backup is a personal backup utility operated by its owner on their own computer. It is not offered as a hosted service for other users.</p>
+<h2>Data used and why</h2>
+<p>The utility reads local files selected in its backup configuration, which can include project files, conversation archives and application settings. It creates encrypted backup snapshots. It uses Google account information, including the account email address and Drive storage availability, to verify the destination and available space. It reads and writes the backup files and metadata accessible through its Google Drive authorization.</p>
+<h2>Google authorization</h2>
+<p>The utility uses Google's OAuth authorization flow with the <code>drive.file</code> scope. It does not request the Google account password. OAuth credentials are stored on the owner's computer in a folder restricted to the owner's Windows account and system account. They are used to renew access and transfer backups.</p>
+<h2>Storage and sharing</h2>
+<p>Backup content is encrypted by restic before it is uploaded to the owner's authorized Google Drive. The recovery key is stored separately from that encrypted repository. Local backup files and operational reports remain on the owner's computer. Google processes the uploaded encrypted files as the selected storage provider. The utility does not sell Google user data or send it to advertising services, and does not publish or share backup files through this website.</p>
+<h2>Retention and deletion</h2>
+<p>Backup snapshots remain until the owner removes them. The owner controls their local files and the files in Google Drive. The owner can revoke the application's authorization through their Google Account connections settings. Revoking access stops future authorized transfers; existing local and cloud copies must be removed separately if deletion is wanted.</p>
+<h2>This website</h2>
+<p>These static pages contain no application analytics, tracking scripts or forms. GitHub Pages is the website hosting provider and may process request information under its own privacy statement.</p>
+<h2>Contact</h2>
+<p>For questions about this personal application, contact its <a href="https://github.com/dpoleschukbm-creator">maintainer on GitHub</a>.</p>
+<footer><a href="index.html">Application home</a></footer>
+</main>
+</html>
