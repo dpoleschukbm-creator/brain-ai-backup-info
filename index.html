@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>BRAIN AI Backup</title>
+<link rel="stylesheet" href="style.css">
+<main>
+<p class="eyebrow">Personal backup utility</p>
+<h1>BRAIN AI Backup</h1>
+<p class="lead">Encrypted backups of selected local project files and conversation archives to the owner's Google Drive.</p>
+<h2>How it works</h2>
+<p>The utility runs on the owner's computer. It uses restic to encrypt backup snapshots and rclone to transfer them to a Google Drive account explicitly authorized by the owner. It is a personal tool, not a public sign-up service.</p>
+<h2>Google Drive access</h2>
+<p>The application requests the <code>drive.file</code> permission to create, read and manage its backup files. Authorization is limited to files created by the app or explicitly made available to it. Account information is used to check that backups go to the intended account.</p>
+<h2>About this website</h2>
+<p>This website contains application information. Backup archives, credentials and recovery keys are not published here. This utility is not an OpenAI product and does not guarantee export of all data held by third-party services.</p>
+<footer><a href="privacy.html">Privacy policy</a><span> · </span><a href="https://github.com/dpoleschukbm-creator">Maintainer</a></footer>
+</main>
+</html>
